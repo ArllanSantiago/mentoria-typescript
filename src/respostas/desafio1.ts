@@ -1,3 +1,5 @@
+
+
 // Resposta 1
 const funcionario = {
     codigo: 10,
@@ -24,3 +26,16 @@ const funcionarioObj2: Funcionario = {
     codigo: 10,
     nome: 'João'
 }
+
+
+// Resposta [5]
+class Funcionario {
+    constructor(codigo:number, nome:string){
+        this.codigo = codigo 
+        this.nome =nome
+    }
+    codigo:number;
+    nome: string;
+}
+
+const funcionarioClasse:Funcionario = new Funcionario(10,'João');
